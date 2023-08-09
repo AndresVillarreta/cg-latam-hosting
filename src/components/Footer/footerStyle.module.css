@@ -1,0 +1,42 @@
+footer {
+  background: black;
+  height: 20vh;
+  color: rgb(175, 175, 175);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.content a {
+  cursor: pointer;
+}
+.spawnCopy {
+  position: fixed;
+  bottom: 14.2%;
+  left: 15%;
+  animation: spawnDie 3s ease-out;
+  background: rgb(104, 104, 104);
+  color: black;
+}
+@keyframes spawnDie {
+  0% {
+    opacity: 0;
+    bottom: 10%;
+    left: 15%;
+  }
+  50% {
+    opacity: 1;
+    bottom: 14.2%;
+    left: 15%;
+  }
+  100% {
+    opacity: 0;
+  }
+}

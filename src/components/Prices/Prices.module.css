@@ -1,0 +1,11 @@
+.container {
+  animation: spawn 1s ease;
+}
+@keyframes spawn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

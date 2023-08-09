@@ -1,0 +1,31 @@
+@import url("https://db.onlinewebfonts.com/c/5d31f7e418680fc65e031bd05a7fa996?family=Dense-Regular");
+.nav {
+  color: aliceblue;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  height: 6vh;
+  border: 1;
+  position: fixed;
+  width: 100%;
+  padding-left: 3%;
+  top: 0;
+}
+.list {
+  font-family: "Dense-Regular";
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 180%;
+  padding-right: 6%;
+}
+.list li {
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.list li:hover {
+  color: rgb(232, 60, 255);
+}
